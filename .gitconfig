@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Karena Lai
+	email = 65944717+klai890@users.noreply.github.com	
+[http]
+	postBuffer = 157286400
